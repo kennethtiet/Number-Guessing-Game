@@ -1,5 +1,5 @@
 import random
-
+import time
 
 while(True):
     print("Welcome to the Number Guessing Game!")
@@ -34,6 +34,7 @@ while(True):
 
     print("Great! You have selected the", difficulty,"difficulty level.")
 
+    start = time.time()
     #generate number
     num = random.randrange(0, 100, 1)
     attempts = 0
@@ -41,15 +42,19 @@ while(True):
         answer = int(input("Enter your guess: "))
         attempts += 1
         if answer == num:
+            end = time.time()
+            length = end - start
+            
             print("Congratulations! You guessed the correct number in", attempts,"attempts")
+            print(f"It took you {length:.3f} seconds")
             break
         elif answer > num:
             print("Incorrect! The number is less than", answer,".")
         else:
-            print("Incorrect! The answer is greater than ",answer,".")
+            print("Incorrect! The answer is greater than",answer,".")
             
     if attempts >= chances:
-        print("Ran out of attempts! The number was ", num)
+        print("Ran out of attempts! The number was", num)
 
     inp = input("Play again? y/n ")
 
