@@ -30,20 +30,20 @@ Please select the difficulty level:
 Enter a number: 1
 Great! You have selected the Easy difficulty level.
 Enter your guess: 50
-Incorrect! The number is less than 50 .
+Incorrect! The number is less than 50.
 Enter your guess: 25
-Incorrect! The answer is greater than 25 .
+Incorrect! The answer is greater than 25.
 Enter your guess: 37
-Incorrect! The answer is greater than 37 .
+Incorrect! The answer is greater than 37.
 Enter your guess: 43
 You're close!
-Incorrect! The number is less than 43 .
+Incorrect! The number is less than 43.
 Enter your guess: 40
 You're close!
-Incorrect! The answer is greater than 40 .
+Incorrect! The answer is greater than 40.
 Enter your guess: 41
 You're close!
-Incorrect! The answer is greater than 41 .
+Incorrect! The answer is greater than 41.
 Enter your guess: 42
 You're close!
 Congratulations! You guessed the correct number in 7 attempts
