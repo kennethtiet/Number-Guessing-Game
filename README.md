@@ -8,6 +8,15 @@ https://roadmap.sh/projects/number-guessing-game
 
 3. Follow the instructions and play!
 
+# Features:
+- Users can play a guessing game
+- Various difficulties offer different chances
+- Users can play multiple rounds if prompted
+- Timer added to see how long users take to win
+- Hint system: If answer is within a value of 5 of the number
+- User's high scores are stored per difficulty. Scores are calculated inversely (Max number of attempts - actual attempts).
+
+# Sample Output
 ```
 Welcome to the Number Guessing Game!
 I'm thinking of a number between 1 and 100.
@@ -41,11 +50,3 @@ Congratulations! You guessed the correct number in 7 attempts
 It took you 39.325 seconds
 Play again? y/n 
 ```
-
-# Features:
-- Users can play a guessing game
-- Various difficulties offer different chances
-- Users can play multiple rounds if prompted
-- Timer added to see how long users take to win
-- Hint system: If answer is within a value of 5 of the number
-- User's high scores are stored per difficulty. Scores are calculated inversely (Max number of attempts - actual attempts).
