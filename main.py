@@ -57,9 +57,9 @@ while(True):
             print(f"It took you {length:.3f} seconds")
             break
         elif answer > num:
-            print("Incorrect! The number is less than", answer,".")
+            print("Incorrect! The number is less than " + str(answer) + ".")
         else:
-            print("Incorrect! The answer is greater than",answer,".")
+            print("Incorrect! The answer is greater than " + str(answer) + ".")
             
             
     if attempts >= chances:
